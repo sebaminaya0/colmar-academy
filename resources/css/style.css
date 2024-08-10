@@ -462,6 +462,9 @@ main {
 .thesis .thesis-video {
     width: 60%;
     padding: 2rem 1rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
 }
 
 .thesis .thesis-video video {
